@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <form name="feecalculator">
+         <!-- Varos nevet megado valaszto javascript hivatkozas a lista ellemeire az option-on belül-->
+         <label>Adja meg a város nevét:</label>
+         <!-- választó tag amelyen belül ha rákattintunk a popMenu tartalmát hozza ki js-ben -->
+         <select id="town" onclick="popMenu(document.feecalculator.town)">
+        <option>Válasszon várost</option>
+        </select>
+
+        <label>Adja meg a csomag súlyát (kg):</label>
+        <!-- súly beírásához használt number input-->
+        <input type="number" name="weight" id="weight">
+        <!-- A kalkulálást végző gomb -->
+        <input type="button" value="Kalkulál" onclick="feeCalculator(document.feecalculator.town.value,document.feecalculator.weight.value)">
+     </form>
+    <script>
+        // Városok és a távolságuk 2d tömbbe rendezve
+        function popMenu(t) {
+            var townList = [["Budapest", 232], ["Szeget", 230], ["Miskolc", 114], ["Pécs", 474], ["Eger", 377], ["Nyíregyháza", 58], ["Kecskemét", 184], ["Székesfehérvár", 317], ["Szombathely", 458], ["Szolnok", 130]];
+        // if függvény, hogy ha 1 az eredmény akkor beírja a tömb tartalmát az option html tag-hez. Ez azért fontos, hogy kattíntásnál csak 1x írja be, ne többször
+            if (t.options.length == 1) {
+                // For ciklus, hogy a tömbböl a kiválasztott elemet válassza ki a kalkuláláskor
+            for (var i = 0; i < townList.length; i++) {
+                var towns = townList[i];
+                // createElement hozza létre a választási lehetőségeket az option tag-en belül
+                var el = document.createElement("option");
+                // a tömb elemeinek indexeire hivatkozás
+                el.textContent = towns[0];
+                el.value = towns[1];
+                t.appendChild(el);
+            }
+        }
+    }
+    // Ez a function számolja ki a számokat majd írja ki alertbe
+        function feeCalculator(d, w) {
+            var weightFee = w * 100;
+            var distanceFee = d * 150;
+            var total = weightFee + distanceFee + 2000;
+// A kiírásért felelős parancssor
+            alert("AlapdÍj: 2000Ft," + " Súlydíj: " + weightFee + "Ft," + " Km díj: " + distanceFee + "Ft," + " Összesen: " + total + "Ft" )
+        }
+    </script>
+</body>
+</html>
