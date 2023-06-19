@@ -1,0 +1,52 @@
+body {margin:0;padding:0;display: border-box;}
+#matrix_a h1 {
+    color:red;
+    font-size: 3vw;
+    -webkit-text-stroke: 0.1vw black;
+    text-align: center;
+    font-family: fantasy;
+}
+#matrix_a {
+background-color: rgb(46, 2, 2);margin:0;padding:0;}
+#matrix_a p input {
+    background-color: salmon;
+    color:white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5vw;
+    -webkit-text-stroke: 0.1vw black;
+    text-align: center;
+    width: 10vw;
+    margin: 0.5vw;
+    padding: 0.15vw;
+}
+#matrix_a p {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5vw;
+    margin:0.5vw;
+    padding:0;
+    color:black;
+    -webkit-text-stroke: 0.05vw white;
+}
+#matrix_b h1 {color:yellow;font-size: 3vw;-webkit-text-stroke: 0.1vw black;text-align: center;font-family: fantasy;}
+#matrix_b p input {
+    background-color: orange;
+    color:white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5vw;
+    -webkit-text-stroke: 0.1vw black;
+    text-align: center;
+    width: 10vw;
+    margin: 0.5vw;
+    padding: 0.15vw;
+}
+#matrix_b p {    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5vw;
+    margin:0.5vw;
+    padding:0;
+    color:black;
+    -webkit-text-stroke: 0.05vw white;}
+#matrix_b {background-color: orangered;padding:0;margin:0;}
+#buttons input {text-align: center;
+color:green;}
