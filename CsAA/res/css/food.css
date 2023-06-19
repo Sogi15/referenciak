@@ -1,0 +1,29 @@
+#food table {width: 100%;border-collapse: collapse;margin: 1vw auto;padding:0;box-shadow: 0vw 0vw 0.2vw 0.2vw blue;}
+#food table tr {width: 100%; border: 0.1vw solid black;}
+#food table tr th {width: 25%;padding: 0.2vw; border: 0.1vw solid black;text-align: center; font-size: 1.5vw;background: darkcyan;}
+#food table tr th:hover {background: linear-gradient(darkcyan 80%, lime);color:lime;font-size: 1.55vw;}
+#food table tr td:hover {background: linear-gradient(cadetblue 60%, lime);}
+#food table tr td {width: 25%;padding:0.2vw;border: 0.1vw solid black;text-align: center;background: cadetblue;font-size: 1.5vw;}
+#food table tr td.ing {font-size: 0.9vw;}
+#food table tr td img {width: 35%;display: block;margin:0 auto;}
+#food #inactive td {background: lightgrey;}
+#food #inactive th {background: rgb(176, 176, 176);}
+#food #inactive td:hover {background: linear-gradient(lightgrey 60%,grey);}
+#food #inactive th:hover {background: linear-gradient(rgb(176, 176, 176) 80%,grey);color: grey;}
+#food #inactive tr td img {filter: grayscale();}
+#food h2 {font-size: 2vw;color: black;text-align: center;}
+#buttons {width: 100%;margin:1vw;padding:0;}
+#buttons a {color:black;background: linear-gradient(cyan, cadetblue);font-weight: 700;font-size: 1.1vw;margin:0.5vw;padding:0.5vw;border:0.1vw solid black; border-radius: 1vw;text-decoration: none;text-align: center;box-shadow: 0vw 0vw 0.1vw 0.1vw blue;}
+#buttons a:hover {cursor: pointer;color:white;background: linear-gradient(cyan,darkblue);}
+
+@media only screen and (max-width: 768px) {
+    #food table {margin: 3vw auto;box-shadow: 0vw 0vw 0.6vw 0.6vw blue;}
+    #food table tr {border: 0.3vw solid black;}
+    #food table tr td {padding:0.6vw;border: 0.3vw solid black;font-size: 4.5vw;}
+    #food table tr td.ing {font-size: 2.7vw;}
+    #food table tr td img {width: 80%;}
+    #food table tr th {padding: 0.6vw; border: 0.3vw solid black;font-size: 4.5vw;}
+    #food table tr th:hover {font-size: 4.65vw;}
+    #food h2 {font-size: 6vw;}
+    #food #inactive {margin-bottom: 0;}
+}

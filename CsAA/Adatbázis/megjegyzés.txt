@@ -1,0 +1,1 @@
+Az adatbázisban képek is vannak tárolva, ezért a xampp használata előtt érdemes a "my.ini" file-n belül a "max_allowed_packet" mezőt 1M-ről magasabb értékre át írni különben hibára fut az importálás! (Nálunk 10M-re volt)

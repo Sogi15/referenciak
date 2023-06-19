@@ -1,0 +1,17 @@
+#profile_p {width: 40%;margin: 2vw auto;background: white;}
+#profile_p table {width: 100%;border-collapse: collapse;}
+#profile_p table tr {width: 100%;}
+#profile_p table tr th {width: 100%;font-size: 1.5vw;padding:0.25vw;background: lightblue;}
+#profile_p table tr td {width: 50%;font-size: 1vw;padding:0.25vw;}
+#profile_p table tr td:hover {background: lightblue;}
+#profile_p table tr th:hover {background: skyblue;}
+
+@media only screen and (max-width: 768px) {
+    #profile_p {width: 100%;margin: 0vw;}
+    #profile_p table {width: 100%;border-collapse: collapse;}
+    #profile_p table tr {width: 100%;}
+    #profile_p table tr th {width: 100%;font-size: 5vw;padding:0.5vw;background: lightblue;}
+    #profile_p table tr td {width: 50%;font-size: 3vw;padding:0.5vw;}
+    #profile_p table tr td:hover {background: lightblue;}
+    #profile_p table tr th:hover {background: skyblue;}
+}

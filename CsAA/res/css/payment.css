@@ -1,0 +1,51 @@
+
+.payment {border: 0.15vw solid black;background-color: aquamarine;width:40%;float:right;padding: 1vw;margin: 1vw;border-radius: 1vw;}
+.payment p {font-size: 1.5vw;font-weight: 700;}
+.payment p span {font-weight: normal;}
+.payment p a {width: 45%;border-radius: 1vw;border: 0.15vw solid black;font-size: 2vw;text-align: center;display: block;margin:0 auto;cursor:pointer;text-decoration: none;background: linear-gradient(to bottom, rgb(85, 153, 255), cyan);color: darkblue;}
+.payment p a:hover {opacity: 0.8;background: linear-gradient(to bottom, rgb(85, 153, 255), darkcyan);color:white;}
+#paymentpaper {background: white;width: 70%;border:0.1vw solid black;padding:1vw;margin: 0 auto;font-size: 1vw;}
+#paymentpaper #paperleft {width: 50%;height: 10vw;}
+#paymentpaper #paperleft #papermerch {font-size: 2vw;justify-content: center;align-items: center;padding: 1vw 0vw 1vw 0vw;color:white;-webkit-text-stroke: 0.1vw black;font-family: Arial, Helvetica, sans-serif;}
+#paymentpaper #paperright {width: 50%;height: 10vw;}
+#paymentpaper #paperright table {text-align: left;background-color: #FFFECE; border: 0.05vw solid red;width: 100%;padding:1vw 0.5vw 0.25vw 0.5vw;margin:0 auto;}
+#paymentpaper #paperright table td {width: 50%;}
+#paymentpaper #paperright table p b {font-size: 1.011vw;};
+#paymentpaper #paperright table p {font-size: 1.01vw;font-family: Arial, Helvetica, sans-serif;}
+#paymentpaper #paperleft img {width: 10%;}
+#paymentpaper #paperleft #ceg_adatok {text-align: center;font-size: 0.95vw;color: black;font-family: Arial, Helvetica, sans-serif;}
+#paymentpaper #paperleft #payment_name {text-align: center;font-size:1.3vw;color: black;font-weight: 500;font-family: Arial, Helvetica, sans-serif;}
+#paymentpaper #paperleft #payment_city,#payment_adoa {text-align: center;font-size: 0.95vw;color: black;font-family: Arial, Helvetica, sans-serif;}
+#paymentpaper #paperright h2 {padding-right:1.5vw;font-size: 1.25vw;font-family: Arial, Helvetica, sans-serif;text-align: right;font-weight: normal;}
+.p_gray {background-color: #D4D4D4;}
+.p_txright {text-align: right;}
+.p_txcenter {text-align: center;}
+.p_w50 {width: 50%;}
+.p_w25 {width: 25%;}
+#stats_1, #stats_2,#stats_3,#stats_4,#stats_5,#stats_6 {width: 50%;}
+#stats_1 table, #stats_2 table,#stats_3 table,#stats_4 table,#stats_5 table,#stats_6 table {width: 100%;border-collapse: collapse;}
+#stats_1 table tr td, #stats_2 table tr td,#stats_3 table tr td,#stats_4 table tr td,#stats_5 table tr td,#stats_6 table tr td {padding:0.1vw;}
+.border {border: 0.15vw solid black;}
+.no_border {border: none;}
+
+@media only screen and (max-width: 768px) {
+.payment {border: none;width:100%;padding: 2vw;margin: 0vw;border-radius: 0vw;float: none;}
+.payment p {font-size: 3.5vw;}
+.payment p a {width: 60%;border-radius: 2vw;border: 0.3vw solid black;font-size: 4vw;}
+#paymentpaper {width: 95%;border:none;padding:0vw;margin: 0vw auto;border: 0.2vw solid black;}
+#paymentpaper #paperleft {width: 50%;height: 20vw;font-size: 1vw;padding:1vw;}
+#paymentpaper #paperleft #papermerch {font-size: 4vw;padding: 2vw 0vw 2vw 0vw;-webkit-text-stroke: 0.2vw black;}
+#paymentpaper #paperright {width: 50%;height: 20vw; font-size: 1vw;padding:1vw;}
+#paymentpaper #paperright table {border: 0.2vw solid red;width: 100%;padding:2vw 1vw 0.5vw 1vw;margin:0vw;}
+#paymentpaper #paperright table td {width: 50%;margin:0;}
+#paymentpaper #paperright table p {font-size: 1.9vw;}
+#paymentpaper #paperright table p b {font-size: 2vw;};
+#paymentpaper #paperleft img {width: 10%;}
+#ceg_adatok {font-size: 2vw;color: black;font-family: Arial, Helvetica, sans-serif;}
+#payment_name {font-size:3vw;}
+#payment_city,#payment_adoa {font-size: 2.2vw;}
+#paymentpaper #paperright h2 {padding-right:1.5vw;font-size: 2.5vw;}
+#stats_1, #stats_2,#stats_3,#stats_4,#stats_5,#stats_6 {width: 100%;font-size: 2vw;}
+#stats_1 table tr td, #stats_2 table tr td,#stats_3 table tr td,#stats_4 table tr td,#stats_5 table tr td,#stats_6 table tr td {padding:0.2vw;}
+
+}

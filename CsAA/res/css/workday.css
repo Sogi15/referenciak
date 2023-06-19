@@ -1,0 +1,42 @@
+#workday table {width: 60%; margin: 1vw auto; border-collapse: collapse; border: 0.2vw solid black;padding: 1vw; font-size: 1vw;font-family: Arial, Helvetica, sans-serif;}
+#workday table th {border: 0.15vw solid black; padding: 0.5vw;color:darkblue;background: linear-gradient(rgb(85, 153, 255), rgb(184, 184, 255));font-size: 1.25vw;}
+#workday table th#month {background: linear-gradient(rgb(65, 65, 166), rgb(85, 153, 255)); border: 0.20vw solid black;font-size: 2vw;color:white;-webkit-text-stroke: 0.1vw black;}
+#workday table tr {border: 0.15vw solid black;}
+#workday table tr td {border: 0.15vw solid black; padding: 1vw;text-align: center;font-size: 1.25vw;background: radial-gradient(rgb(138, 138, 250) 20%,rgb(184, 184, 255) 60%);} 
+#workday table tr td.empty {font-size:1.5vw;-webkit-text-stroke: 0.075vw black;font-weight: bold;color:white; background: radial-gradient(rgb(108, 178, 202),rgb(184, 184, 255) 60%);}
+#workday table tr td.empty:hover {cursor:not-allowed;}
+#workday table tr td#today {background: radial-gradient(lightgreen 20%,rgb(184, 184, 255) 60%);}
+#workday table tr td#today:hover {cursor:grab;background: radial-gradient(lightgreen 10%,lime 20%,rgb(184, 184, 255) 60%);}
+#workday table tr td.dayoff {background: radial-gradient(salmon 20%,rgb(184, 184, 255) 60%);}
+#workday table tr td.dayoff:hover {cursor:not-allowed;background: radial-gradient(salmon 10%,rgb(255, 68, 68) 20%,rgb(184, 184, 255) 60%);}
+#workday table tr td.dayoff {background: radial-gradient(salmon 20%,rgb(184, 184, 255) 60%);}
+#workday table tr td.weekend {background: radial-gradient(rgb(159, 159, 159) 20%,rgb(184, 184, 255) 60%);}
+#workday table tr td.weekend:hover {cursor:not-allowed;background: radial-gradient(rgb(159, 159, 159) 10%,gray 20%,rgb(184, 184, 255) 60%);}
+#workday table tr td:hover {background: radial-gradient(rgb(138, 138, 250) 10%, rgb(110, 110, 255) 20%,rgb(184, 184, 255) 60%);} 
+#workday p {font-size: 1.15vw;color:black;font-family: Arial, Helvetica, sans-serif;}
+#workday p b {font-size: 1.25vw;color:darkblue;}
+#workday p a {font-size: 1.25vw;color:black;text-decoration: none;}
+#workday p a:hover {font-size: 1.35vw;;color:darkblue;cursor:pointer;}
+#workday p#naptarjelek {font-size: 1.5vw; color: black; text-align: center;margin-top: 3vw;margin-bottom: 0.5vw;}
+#workday #jelmagyarazat_naptar {width: 100%;margin: 0.25vw auto;}
+#workday #jelmagyarazat_naptar tr td {width: 10%;}
+#workday #jelmagyarazat_naptar tr td.text {width: 90%;padding: 0.25vw; text-align: left;font-size: 1vw;color:black; background: lightblue;}
+#workday #jelmagyarazat_naptar tr td.text:hover {font-size: 1.2vw;background: rgb(161, 218, 237);}
+
+@media only screen and (max-width: 768px) {
+#workday table {width: 90%; margin: 0vw auto; margin-top: 2vw; border: 0.6vw solid black;padding: 0vw; font-size: 6vw;}
+#workday table th {border: 0.15vw solid black; padding: 0.5vw;font-size: 2.5vw;}
+#workday table th#month {border: 0.20vw solid black;font-size: 5vw;color:white;-webkit-text-stroke: 0.2vw black;}
+#workday table tr td {font-size: 3vw;font-weight: 700;} 
+#workday table tr td.empty {font-size:5vw;-webkit-text-stroke: 0.15vw black;}
+#workday p {font-size: 2.8vw;padding:1vw;}
+#workday p b {font-size: 3vw;color:darkblue;}
+#workday p a {font-size: 3vw;color:black;}
+#workday p a:hover {font-size: 3vw;}
+#workday p#naptarjelek {font-size: 4vw; margin-top: 3vw;margin-bottom: 0.5vw;}
+#workday #jelmagyarazat_naptar {width: 100%;margin: 0vw auto;}
+#workday #jelmagyarazat_naptar tr td {width: 10%;}
+#workday #jelmagyarazat_naptar tr td.text {width: 90%;padding: 0.5vw; font-size: 3vw;}
+#workday #jelmagyarazat_naptar tr td.text:hover {font-size: 3.4vw;}
+
+}

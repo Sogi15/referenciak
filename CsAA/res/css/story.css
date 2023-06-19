@@ -1,0 +1,25 @@
+#story {width: 100%;}
+#story ol {font-family: Arial, Helvetica, sans-serif;padding:0vw 2vw;}
+#story ol li {font-size: 1.15vw;padding:0.25vw 0vw;}
+#story ol li a {color:darkblue;text-decoration: none;font-weight: 700;}
+#story ol li a:hover {color:blue;cursor: pointer;}
+#story #storylinemerch {width: 100%;border:0.25vw solid black; background: lightblue;border-radius: 2vw;display: inline-flex;}
+#story #storylinemerch img {width: 10%;padding:0.25vw;background: radial-gradient(lime ,transparent 60%);}
+#story #storylinemerch img:hover {background: radial-gradient(green ,transparent 60%);cursor: help;}
+#story #storylinemerch #logostring {line-height: 200%;width: 90%;color:white;text-align: center;-webkit-text-stroke: 0.125vw black; font-size: 5vw;font-family: Arial, Helvetica, sans-serif;font-weight: 700;}
+#story #storylinemerch #logostring:hover {background: radial-gradient(white ,transparent 60%);cursor:help;}
+#story h2 {color: darkblue; font-size: 1.5vw;padding: 1vw 0vw;}
+#story p {font-size: 1.15vw;color: black;text-align: justify;padding:0.5vw; border: 0.1vw solid black; border-radius: 1vw; background: rgb(114, 183, 207);box-shadow: 0vw 0vw 0.2vw 0.05vw blue;}
+#story p b {color:white;font-size: 1.2vw;-webkit-text-stroke: 0.05vw black;}
+
+@media only screen and (max-width: 768px) {
+#story {width: 98%;margin:0 auto;}
+#story ol {padding:0vw 3vw;}
+#story ol li {font-size: 2.5vw;padding:0.5vw 0vw;}
+#story #storylinemerch {width: 100%;border:0.25vw solid black; border-radius: 2vw;}
+#story #storylinemerch img {width: 10%;padding:0.5vw;}
+#story #storylinemerch #logostring {-webkit-text-stroke: 0.25vw black; font-size: 7.5vw;}
+#story h2 {font-size: 4.5vw;padding: 2vw 0vw;}
+#story p {font-size: 3.8vw;padding:1vw; border: 0.2vw solid black; border-radius: 2vw;}
+#story p b {font-size: 4vw;-webkit-text-stroke: 0.1vw black;}
+}

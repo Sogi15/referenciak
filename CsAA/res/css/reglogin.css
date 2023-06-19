@@ -1,0 +1,15 @@
+#page {width: 50%;margin: 1vw auto;border: 0.25vw solid blue;background-color: rgb(177, 177, 255);border-radius: 1vw;padding: 1vw;}
+label {font-size: 1.4vw;color: darkblue;text-shadow: 0.1vw 0.1vw 0.25vw blue;}
+input, select {width: 100%;padding: 1vw;margin: 0.25vw 0vw;display: inline-block;border: 0.15vw solid blue;box-sizing: border-box;border-radius: 0.5vw;background-color: azure;font-size: 1.1vw;color:darkblue;}
+img {margin:0 auto;display: block;}
+img:hover {opacity: 0.8;}
+button {background: linear-gradient(to bottom, rgb(85, 153, 255), cyan);color: darkblue;border: 0.15vw solid blue;border-radius: 0.5vw;padding: 1vw;margin: 0.25vw 0vw;cursor: pointer;width: 100%;font-size: 1.25vw;font-weight: 700;}
+button:hover {opacity: 0.8;background: linear-gradient(to bottom, rgb(85, 153, 255), darkcyan);color:white;}
+
+  @media only screen and (max-width: 768px) {
+    body {width: 100%;margin:0;padding:0;}
+    #page {width: 100%;margin: 0vw;border: none;border-radius: 0vw;padding: 0vw;}
+    label {font-size: 4.2vw;text-shadow: 0.3vw 0.3vw 0.75vw blue;padding:1vw;}
+    input, select {width: 100%;padding: 3vw;margin: 0.75vw 0vw;border: solid blue;border-width:0.45vw 0vw;border-radius: 0vw;font-size: 3.3vw;}
+    button {border: solid blue;border-width:0.45vw 0vw;border-radius: 0vw;padding: 3vw;margin: 0.75vw 0vw;font-size: 3.75vw;}
+  }

@@ -1,0 +1,17 @@
+// kovacsanna@kamu.hu - kovacs12 \\
+// gergely666@kamu.hu - Gergoke \\
+// arpivok@kamu.hu - LakiArpi \\
+// lesq@kamu.hu - LesQ \\
+// kolika@kamu.hu - 0153 \\
+// simi00@kamu.hu - SimiKE \\
+// botifc@kamu.hu - B_Botond \\
+// vecseigaspar@kamu.hu - Vécsei \\
+// nandigavai@kamu.hu - GavaKing15 \\
+// presi@kamu.hu - PresnerT \\
+// karcsiking@kamu.hu - ÉnAKirály \\
+// admin@admin.hu - admin \\ > Saját fiók (megegyezik a teszt fiókkal)
+// szakos@kamu.hu - Szaka \\
+// menojeno@kamu.hu - menok \\
+
+Teljes jogú tesztfiók:
+teszt@kamu.hu - 1234
