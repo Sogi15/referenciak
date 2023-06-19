@@ -1,0 +1,8 @@
+autó#car
+tehén#cow
+kutya#dog
+macska#cat
+egér#mouse
+billentyűzet#keyboard
+falu#village
+város#city

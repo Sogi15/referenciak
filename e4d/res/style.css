@@ -1,0 +1,95 @@
+div.page {
+    background-color: white; /* Háttérszín */
+    border: 0.2em solid black; /* körvonal */
+    margin: 1vw auto; /* margó */
+    border-radius: 2em; /* körvonal kerekítés */
+}
+.pagetitle {
+    text-align: center; /* szöveg pozició */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /* Betükészlet */
+    color:#EDE44C; /* szövegszín */
+    -webkit-text-stroke: 0.05em #0F5570; /* szöveg körvonal */
+    font-size: 3em; /* szöveg méret */
+    margin: 0; /* margó */
+    cursor:default; /* Kurzor típus */}
+.navbar-brand b{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /* Betükészlet */
+    color:#EDE44C; /* szövegszín */
+    -webkit-text-stroke: 0.05em #0F5570; /* szöveg körvonal */
+    font-size: 2em; /* szöveg méret */
+}
+.navbar-brand b:hover{ /* Rámutatásra változó dizájn */
+    color:#1D92AA; /* szövegszín */
+    -webkit-text-stroke: 0.05em black; /* szöveg körvonal */
+    font-size: 2em; /* szöveg méret */
+}
+.navbar-toggler{
+    color:#EDE44C; /* szövegszín */
+    -webkit-text-stroke: 0.05em #0F5570; /* szöveg körvonal */
+    font-size: 3em; /* szöveg méret */
+}
+.nav-link {
+    font-size: 1.25em; /* szöveg méret */
+    color:#0F5570; /* szövegszín */
+}
+.nav-link:hover {
+    color:#1D92AA; /* szövegszín */
+    background: linear-gradient(transparent 90%, #ede44c 60%); /* áttűnő háttér */
+    border-bottom: 0.1em solid #0F5570;  /* alsó körvonal */
+}
+.home-name {
+    color:white; /* szövegszín */
+    -webkit-text-stroke: 0.04em black; /* szöveg körvonal */
+    font-size: 1em; /* szöveg méret */
+    cursor:default; /* Kurzor típus */
+}
+.game h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /* Betükészlet */
+    text-align: left; /* szöveg pozició */
+    font-size: 2.5em;
+    color:#EDE44C; /* szövegszín */
+    -webkit-text-stroke: 0.05em #0F5570; /* szöveg körvonal */
+}
+.game #szokirako input[type=text] {
+    text-align: center; /* szöveg pozició */
+    color:#0F5570; /* szövegszín */
+    font-size: 1.5em; /* szöveg méret */
+    font-weight: 700; /* szöveg vastagság */
+    border: 0.1em solid black; /* körvonal */
+    border-radius: 0.75em; /* körvonal kerekítés */
+}
+.game #szokirako input[type="text"]:disabled {
+    background: #dddddd; /* háttérszín */
+  }
+.game ol {
+    font-size: 1em; /* szövegméret */
+}
+.game ol li {
+    border: 0.1em solid black; /* körvonal */
+    padding:0.5em; /* belső margó */
+    margin: 0.5em 0; /* margó */
+    border-radius: 0.5em; /* körvonal kerekítés */
+    background-color: #dddddd; /* háttérszin */
+}
+.game ol input {
+    margin: 0em 0.5em; /* margó */
+}
+
+.game #szokincs input {
+    text-align: left; /* szöveg pozició */
+    color:#0F5570; /* szövegszín */
+    font-size: 1em; /* szöveg méret */
+    font-weight: 700; /* szöveg vastagság */
+    border: 0.1em solid black; /* körvonal */
+    border-radius: 0.25em; /* körvonal kerekítés */
+}
+.game input[type=text]:focus {
+    background-color: #EDE44C; /* háttérszin */
+    border: 0.2em solid black; /* körvonal */
+}
+.game input[type=radio]:checked {
+    accent-color: #ede44c; /* input színe */
+}
+.justify {
+    text-align: justify;
+}
