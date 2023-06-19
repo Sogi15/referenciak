@@ -1,0 +1,38 @@
+body {width: 100%;padding: 0;margin: 0;}
+table {width:100%;border-collapse: collapse;border: none;}
+table tr {width:100%;border: 0.3vw solid black;}
+.left {width:30%;}
+.top {width: 60%;}
+.right {width:10%;}
+table tr th h2 {font-size: 3vw;text-align: left;padding: 0.25vw 3vw;color:white;-webkit-text-stroke: 0.125vw black;font-family: Arial, Helvetica, sans-serif;}
+table tr th h2:hover {font-size: 3.1vw; color:rgb(202, 87, 202);cursor:default;}
+table tr th {border: 0.3vw solid black;background: linear-gradient( 25deg,purple,coral,violet); animation: anim 4s infinite; background-size: 400% 100%;}
+table tr td {border: 0.3vw solid black;}
+.error {width: 92%;margin: 0vw auto;padding: 0.5vw;border: 0.1vw solid #a94442;color: #a94442;background: #f2dede;border-radius: 0.75vw;text-align: left;}
+table tr #logout {margin:0;padding:0.25vw;background: radial-gradient(purple,coral,violet);animation: anim 3s;background-size: 400% 100%;}
+table tr #logout a {font-weight: 700;-webkit-text-stroke: 0.05vw darkblue;text-align: center;width: 100%;margin:0;padding:0vw;display: block;font-size: 2vw;font-family: Arial, Helvetica, sans-serif;text-decoration: none;}
+table tr #logout a:hover {color:red;}
+table tr #message {margin:0;padding:0;}
+table tr #message form {width: 100%;margin:0;padding:0;}
+table tr #message form input {width: 100%; margin:0;padding:0;font-size: 2vw;font-weight: 700;border:none;border-radius: none;}
+table tr #message form input:hover {background:wheat;width: 100%; margin:0;padding:0;font-size: 2vw;font-weight: 700;border:none;border-radius: none;}
+table tr #submitbutton {width: 100%;padding:0;margin:0;}
+table tr #submitbutton form {width: 100%;margin:0;padding:0;}
+table tr #submitbutton button {width: 100%;margin:0;padding:0;font-size: 2.5vw;border:none;color:white;background: linear-gradient(180deg, coral,purple);}
+table tr #submitbutton button:hover {color:black;background: linear-gradient(180deg, lightcoral,lightgoldenrodyellow);cursor:pointer;}
+span {font-family: Arial, Helvetica, sans-serif;}
+span.time {font-size: 1.2vw; color:darkmagenta;}
+span.name {font-size: 1.3vw;color:black;font-weight: 700;}
+span.message {font-size: 1.2vw;color:darkorchid;}
+@keyframes anim {0%,100% {background-position: 0 0;} 50% {background-position: 100% 0;}}
+
+/* bejelentkezési oldal */
+#login {width: 100%;margin:0;padding:0;}
+#login form {border:0.25vw solid black;border-radius: 2vw;padding:2vw;;width: 50%;margin:2vw auto;background: linear-gradient(to right, purple, coral, magenta);animation: anim 3s ease-in-out infinite;background-size: 400% 100%;}
+#login form #loginform {width: 100%;border: 0.25vw solid black; padding:0vw;background: wheat;margin:0vw;border-radius: 1vw;}
+#login form .input-group {width: 100%;padding:1vw;display: block;margin:0 auto;}
+#login form .input-group label {font-size: 2vw;text-decoration: none;text-align: center;font-weight: 700;font-family: Arial, Helvetica, sans-serif;color:purple;}
+#login form .input-group input[type=text] {width: 96%; font-size: 1.25vw;margin: 0;padding:0; color:black; background: lightgoldenrodyellow;}
+#login form .input-group input[type=text]:hover {background: goldenrod; color:white;}
+#login form .input-group button {width: 96%; font-size: 2vw;margin: 0;padding:0;background: radial-gradient(lightgoldenrodyellow,yellow,orangered);animation: anim 3s ease-in-out infinite;background-size: 400% 100%;}
+#login form .input-group button:hover {cursor:pointer;background: radial-gradient(purple, coral, magenta);animation: anim 3s ease-in-out infinite;background-size: 400% 100%;-webkit-text-stroke: 0.05vw white;font-weight: 700;}

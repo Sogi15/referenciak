@@ -1,0 +1,3 @@
+<span class='time'>2023-03-31 02:32:33 </span><span class='name'>Rendszer: </span><span class='message'>Üdvözöllek a chaten!</span><br><span <span class="time">2023-06-19 03:12:47</span> <span class="name">Ati:</span> <span class="message">Sziasztok</span><br>
+<span class="time">2023-06-19 03:12:55</span> <span class="name">User:</span> <span class="message">Szia Ati</span><br>
+<span class="time">2023-06-19 03:13:05</span> <span class="name">Username123:</span> <span class="message">Sziasztok</span><br>
